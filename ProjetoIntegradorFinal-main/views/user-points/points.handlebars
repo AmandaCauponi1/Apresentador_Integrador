@@ -1,0 +1,30 @@
+<div class="page-points">
+   
+
+    <div class="points">
+        <h1>Coletar Pontos: </h1>
+    
+        <div class="code">
+            <form action="/user/points" method="post">
+                <div class="form-control">
+                    <input type="text" name="code" placeholder="Insira o código...">
+                </div>
+            
+             <div class="form-control">
+                    {{!-- <input id="btn" type="submit" value="Coletar"> --}}
+                    <button type="submit" id="btn">Coletar</button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+
+    <div class="number-points">
+        <img src="/img/points.png" alt="">
+        <p id="number" >0</p>
+    </div>
+
+    <p class="comentario">AO ACUMULAR 30 PONTOS VOCÊ GANHA UM PRÊMIO!</p>
+</div>
+
+<script src="/js/points.js"></script>
